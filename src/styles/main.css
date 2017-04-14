@@ -2,7 +2,10 @@
 	margin-bottom: 0 !important;
 	height:141px;
 }
-
+.menuBackground{
+	/*padding: 50px;*/
+	background-color: #F8F7F4 !important;
+}
 .logo{
 	margin-top:21px !important;
 }
@@ -21,25 +24,32 @@
 	font-size: 16px		
 
 }
+.textOnMainImage{
+	color: #0D6096;
+	font-size: 30px;
+	margin: 125px 0px 0px 225px;
+}
+.btn-primary{
+	margin: 100px 0px 0px 500px !important;
+
+}
 .menu {
 	float:right;
-	font-size: 15px !important;
+	font-size: 15px !important;*/
 	font-family: Hiragino Sans, 'Trirong';
 	margin-top:43.5px !important;
 } 
-.menuItem{
+.menuItem, .footerMenuItem{
 	height: 14px;
 	color: #144354 !important;
 	width: auto !important;
 	/*background-color: red;*/
 }
-.menuItem:hover{
+.menuItem:hover, footerMenuItem:hover{
 	text-decoration: underline !important;
+	background-color: transparent !important;
 }
-.menuBackground{
-	/*padding: 50px;*/
-	background-color: #F8F7F4 !important;
-}
+
 
 /* MAIN CONTENT */
 .mainContent{
@@ -54,4 +64,38 @@
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	height: 320pt !important;
+}
+
+.content{
+	font-size: 20px;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	
+	padding-top: 20pt;
+	width: 50% ;
+}
+
+.footer{
+
+	background-color: #57572A !important; 
+	height: 55px !important
+}
+
+.footNote{
+	color: white; 
+	margin-left: 30px; 
+	vertical-align: middle;
+	line-height: 55px;
+	float: left;
+}
+
+.footerMenu{
+	float: right;
+}
+
+.footerMenuItem:hover{
+	background-color: transparent !important;
+}
+.footerMenuItem{
+	color: white !important;
 }
