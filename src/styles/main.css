@@ -24,15 +24,6 @@
 	font-size: 16px		
 
 }
-.textOnMainImage{
-	color: #0D6096;
-	font-size: 30px;
-	margin: 125px 0px 0px 225px;
-}
-.btn-primary{
-	margin: 100px 0px 0px 500px !important;
-
-}
 .menu {
 	float:right;
 	font-size: 15px !important;*/
@@ -56,6 +47,7 @@
 	padding:0px !important;
 	margin: 0px !important;
 }
+
 .background{
 	/*background-image: url("images/background.png") !important;*/
 	background: url("../images/background.png") no-repeat center center fixed;
@@ -65,7 +57,16 @@
 	-o-background-size:cover;
 	height: 320pt !important;
 }
+.textOnMainImage{
 
+	color: #0D6096;
+	font-size: 30px;
+	/*margin: 125px 0px 0px 225px;*/
+}
+.btn-primary{
+	/*margin: 100px 0px 0px 500px !important;*/
+	margin: auto !important;
+}
 .content{
 	font-size: 20px;
 	margin-left: 0px !important;
