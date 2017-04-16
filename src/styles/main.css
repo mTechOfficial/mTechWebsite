@@ -50,7 +50,7 @@
 
 .background{
 	/*background-image: url("images/background.png") !important;*/
-	background: url("../images/background.png") no-repeat center center fixed;
+	background: url("../Images/background.png") no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
